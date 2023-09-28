@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=//home/tpqaqkwg/public_html/flask_app
+    - /bin/cp -R images $DEPLOYPATH
