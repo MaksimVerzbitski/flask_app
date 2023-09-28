@@ -1,0 +1,40 @@
+
+.image-container {
+  width: 100%; /* or set a max-width if you don't want it to take full width */
+  text-align: center; /* centers inline or inline-block elements */
+  border: 2px solid black; /* Add border */
+  position: relative;
+}
+
+.large-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+  cursor: zoom-in;
+}
+
+.large-image.zoomed {
+  transform: scale(2); /* Set your desired zoom level */
+  cursor: zoom-out;
+}
+
+/* .img-zoom {
+  transition: transform 0.2s;
+}
+
+.img-zoom:hover {
+  transform: scale(1.5);
+} */
+
+@media (max-width: 768px) {
+  .container-fluid {
+    padding: 0; /* adjust as needed */
+  }
+}
+
+
+
+
+
+
